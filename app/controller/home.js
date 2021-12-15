@@ -11,6 +11,7 @@ class HomeController extends Controller {
 
   async webhooks() {
     const { ctx } = this;
+    console.log('我进来webhooks了');
     ctx.body = 'hi, egg';
   }
 }
